@@ -159,6 +159,7 @@ var (
 	GoBuildName                 = "cli-tests-go-build"
 	GradleBuildName             = "cli-tests-gradle-build"
 	NpmBuildName                = "cli-tests-npm-build"
+	YarnBuildName               = "cli-tests-yarn-build"
 	NuGetBuildName              = "cli-tests-nuget-build"
 	PipBuildName                = "cli-tests-pip-build"
 	RtBuildName1                = "cli-tests-rt-build1"

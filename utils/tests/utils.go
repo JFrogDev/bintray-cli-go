@@ -430,7 +430,7 @@ func GetBuildNames() []string {
 		TestGo:           {&GoBuildName},
 		TestGradle:       {&GradleBuildName},
 		TestMaven:        {},
-		TestNpm:          {&NpmBuildName},
+		TestNpm:          {&NpmBuildName, &YarnBuildName},
 		TestNuget:        {&NuGetBuildName},
 		TestPip:          {&PipBuildName},
 	}
@@ -517,6 +517,7 @@ func AddTimestampToGlobalVars() {
 	GoBuildName += timestampSuffix
 	GradleBuildName += timestampSuffix
 	NpmBuildName += timestampSuffix
+	YarnBuildName += timestampSuffix
 	NuGetBuildName += timestampSuffix
 	PipBuildName += timestampSuffix
 	RtBuildName1 += timestampSuffix
