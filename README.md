@@ -112,6 +112,7 @@ go test -v github.com/jfrog/jfrog-cli -test.artifactory [flags]
 #### Npm tests
 ##### Requirement
 * The *npm* executables should be included as part of the *PATH* environment variable.
+* The tests are compatible with npm 7 and higher.
 
 ##### Limitation
 * Currently, npm integration support only http(s) connections to Artifactory using username and password.
